@@ -33,7 +33,7 @@ def split_csv_by_country(input_csv):
     FILE_NZ = "customers_N_Z.csv"
 
     with open(input_csv, newline='', encoding='utf-8') as csvfile:
-        reader = csv.reader(csvfile)
+        reader = csv.reader(csvfile, delimiter=',', quotechar='"')
         headers = next(reader)  
 
         with open(FILE_AM, 'w', newline='', encoding='utf-8') as am_file, \
