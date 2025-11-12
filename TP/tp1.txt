@@ -1,0 +1,3 @@
+Bonjour ! Voici le fichier texte du tp1
+Deuxième ligne de texte.
+Troisième ligne : upload vers MinIO réussi.
